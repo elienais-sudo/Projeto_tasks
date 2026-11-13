@@ -28,7 +28,7 @@ O usuário poderá visualizar o mapa e selecionar diretamente a cadeira desejada
 3. Reserva de cadeiras
 Ao selecionar uma cadeira disponível, o usuário poderá confirmar sua reserva. O sistema registrará automaticamente a cadeira escolhida e os dados do usuário.
 
-Após a confirmação, a cadeira mudará de verde para vermelho no mapa, indicando que aquele lugar não está mais disponível.
+Após a confirmação, a cadeira mudará de verde para vermelho no mapa, informando que aquele lugar não está mais disponível.
 
 Também será possível que amigos escolham cadeiras próximas uns dos outros, desde que estejam disponíveis no momento da reserva.
 
@@ -42,10 +42,11 @@ Quando o cancelamento for realizado, a cadeira voltará a ficar verde no mapa, f
 O sistema poderá disponibilizar uma área para visualizar os eventos que terão reservas abertas, permitindo que os estudantes escolham o evento desejado e reservem seus lugares antecipadamente.
 
 Cada evento terá seu próprio mapa de cadeiras e controle de reservas.
+
 6. Objetivos do sistema
-- Evitar desorganização na entrada e acomodação dos participantes.
+- Evitar desorganização na entrada .
 - Prevenir a superlotação do auditório.
 - Permitir que os estudantes escolham seus próprios lugares.
 - Facilitar que amigos reservem cadeiras próximas.
 - Garantir maior controle sobre a quantidade de pessoas presentes.
-- Facilitar o gerenciamento e o cancelamento de reservas.
+- Trazer uma certa inovação e organização.
