@@ -12,6 +12,7 @@ Para acessar o sistema, o usuário deverá realizar seu cadastro ou login, infor
 - Nome completo;
 - E-mail institucional;
 - Matrícula do SUAP.
+  
 Essas informações serão utilizadas para identificar o usuário e associá-lo à sua reserva, garantindo maior organização e evitando que uma mesma pessoa ocupe várias cadeiras indevidamente.
 
 2. Mapa de cadeiras do auditório
