@@ -1,52 +1,83 @@
 Informações gerais: https://docs.google.com/document/d/1BfqJ4LWbTcocVqo-ESLGRzY90-VuzqVuvnbQAoAl5kY/edit?tab=t.0
 
-Sistema de Reserva de Cadeiras para Auditório
-Descrição do projeto
+# Sistema de Reserva de Cadeiras para Auditório
 
-O projeto consiste no desenvolvimento de um sistema de reserva de cadeiras para auditórios, com o objetivo de organizar a distribuição dos assentos durante eventos, palestras, apresentações e outras atividades realizadas no ambiente escolar.
+## 1. Descrição do projeto
 
-O sistema funcionará como um aplicativo ou site, permitindo que os usuários realizem suas reservas antecipadamente, escolham seus próprios lugares e tenham a possibilidade de sentar próximos de amigos, evitando desorganização, disputas por assentos e superlotação do auditório.
+O projeto consiste no desenvolvimento de um sistema web de reserva de cadeiras para auditórios escolares, com o objetivo de organizar a distribuição dos assentos durante eventos, palestras, apresentações e outras atividades realizadas no ambiente escolar.
 
-1. Cadastro e login dos usuários
-Para acessar o sistema, o usuário deverá realizar seu cadastro ou login, informando os seguintes dados:
-- Nome completo;
-- E-mail institucional;
-- Matrícula do SUAP.
-  
-Essas informações serão utilizadas para identificar o usuário e associá-lo à sua reserva, garantindo maior organização e evitando que uma mesma pessoa ocupe várias cadeiras indevidamente.
+A aplicação permitirá que os usuários realizem reservas antecipadamente, escolham seus próprios lugares e tenham a possibilidade de sentar próximos de amigos, evitando desorganização, disputas por assentos e superlotação do auditório.
 
-2. Mapa de cadeiras do auditório
-O sistema contará com um mapa visual do auditório, representando todas as cadeiras disponíveis para reserva.
+O sistema encontra-se em fase inicial de desenvolvimento, e suas funcionalidades estão sendo planejadas e implementadas gradualmente.
 
-As cadeiras serão identificadas por cores:
-- Verde
-   Cadeira disponível para reserva.
-- Vermelho
-   Cadeira já reservada por outra pessoa.
-O usuário poderá visualizar o mapa e selecionar diretamente a cadeira desejada.
+## 2. Objetivos
 
-3. Reserva de cadeiras
-Ao selecionar uma cadeira disponível, o usuário poderá confirmar sua reserva. O sistema registrará automaticamente a cadeira escolhida e os dados do usuário.
-
-Após a confirmação, a cadeira mudará de verde para vermelho no mapa, informando que aquele lugar não está mais disponível.
-
-Também será possível que amigos escolham cadeiras próximas uns dos outros, desde que estejam disponíveis no momento da reserva.
-
-4. Cancelamento de reservas
-O usuário poderá consultar suas reservas e cancelar uma reserva caso não possa comparecer ao evento.
-
-Quando o cancelamento for realizado, a cadeira voltará a ficar verde no mapa, ficando novamente disponível para outros usuários.
-
-
-5. Organização dos eventos
-O sistema poderá disponibilizar uma área para visualizar os eventos que terão reservas abertas, permitindo que os estudantes escolham o evento desejado e reservem seus lugares antecipadamente.
-
-Cada evento terá seu próprio mapa de cadeiras e controle de reservas.
-
-6. Objetivos do sistema
-- Evitar desorganização na entrada .
-- Prevenir a superlotação do auditório.
+- Evitar desorganização na entrada do auditório.
+- Prevenir a superlotação do ambiente.
 - Permitir que os estudantes escolham seus próprios lugares.
 - Facilitar que amigos reservem cadeiras próximas.
 - Garantir maior controle sobre a quantidade de pessoas presentes.
-- Trazer uma certa inovação e organização.
+- Proporcionar mais organização e praticidade na realização de eventos escolares.
+
+## 3. Funcionalidades previstas
+
+As funcionalidades abaixo ainda não foram implementadas e fazem parte das próximas etapas do desenvolvimento:
+
+- **Cadastro e login:** identificação dos usuários por nome completo, e-mail institucional e matrícula do SUAP.
+- **Mapa de cadeiras:** representação visual dos assentos disponíveis e ocupados.
+- **Reserva de cadeiras:** possibilidade de selecionar e confirmar uma cadeira disponível.
+- **Identificação por cores:** cadeiras verdes representarão lugares disponíveis, enquanto as vermelhas indicarão lugares reservados.
+- **Cancelamento de reservas:** possibilidade de cancelar uma reserva e disponibilizar novamente a cadeira.
+- **Organização de eventos:** disponibilização de diferentes eventos, cada um com seu próprio mapa de cadeiras e controle de reservas.
+
+## 4. Tecnologias utilizadas
+
+- **Python:** linguagem de programação utilizada no desenvolvimento da aplicação.
+- **HTML:** utilizado na estruturação das páginas web.
+- **Django:** framework Python utilizado no desenvolvimento da aplicação web.
+- **Visual Studio Code (VS Code):** editor de código utilizado durante o desenvolvimento.
+- **GitHub:** plataforma utilizada para armazenar e compartilhar o código-fonte do projeto.
+- **SQLite:** banco de dados possivelmente utilizado, ainda pendente de confirmação.
+
+## 5. Pré-requisitos
+
+Para trabalhar com o projeto, são necessários:
+
+- Python instalado.
+- Django e demais dependências Python.
+- Visual Studio Code ou outro editor de código.
+- Git instalado.
+- Navegador web.
+- Arquivo requirements.txt com as dependências do projeto.
+
+## 6. Instalação e execução
+
+O procedimento de instalação e execução do projeto ainda não está totalmente definido e validado.
+
+A equipe pretende revisar e verificar as configurações necessárias nas próximas aulas, realizando os ajustes necessários para garantir o funcionamento correto da aplicação.
+
+## 7. Estado atual do projeto
+
+O sistema encontra-se em fase inicial de desenvolvimento.
+
+Até o momento, foram iniciados os trabalhos com Python, HTML e Django. As funcionalidades principais e a interface visual ainda estão previstas para desenvolvimento.
+
+O projeto já foi executado anteriormente em ambiente local, mas ainda necessita de novos testes e possíveis correções para garantir seu funcionamento.
+
+## 8. Tarefas e próximas etapas
+
+As próximas etapas do desenvolvimento incluem:
+
+- Desenvolver a interface visual do sistema.
+- Implementar o cadastro e login dos usuários.
+- Desenvolver o mapa visual de cadeiras.
+- Implementar o sistema de reservas.
+- Adicionar a funcionalidade de cancelamento de reservas.
+- Desenvolver o gerenciamento de eventos.
+- Configurar e verificar o banco de dados.
+- Realizar testes e corrigir possíveis erros.
+
+## 9. Equipe
+
+- Elienai Ferreira
+- José Valesson
